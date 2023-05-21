@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/styles/index.css">
+    <title>Shopping basket</title>
+</head>
+<body>
+    <div class="pagename">
+        <h1>
+            Shopping basket
+        </h1>
+    </div>
+    <div class="basket">
+        <div class="buycard">
+            <div class="buycard__text">
+                <h2>Серьги Vintage Alhambra</h2>
+                <p>Желтое золото 18 карат, Оникс</p>
+            </div>
+            <div class="buycard__img">
+                <img src="assets/images/earrings.png" alt="earrings">
+            </div>
+            <div class="buycard__price">
+                <p class="buycard__price_value">400000р</p>
+            </div>
+        </div>
+        <div class="buycard">
+            <div class="buycard__text">
+                <h2>Медальон Zodiaque Scorpii (Скорпион)</h2>
+                <p>Желтое золото 18 карат</p>
+            </div>
+            <div class="buycard__img">
+                <img src="assets/images/scorpio.png" alt="scorpio">
+            </div>
+            <div class="buyclass__price">
+                <p class="buycard__price_value">440000р</p>
+            </div>
+        </div>
+        <div class="buycard">
+            <div class="buycard__text">
+                <h2>Браслет Sweet Alhambra Heart</h2>
+                <p>Розовое золото 18 карат, Сердолик</p>
+            </div>
+            <div class="buycard__img">
+                <img src="assets/images/bracelet.png" alt="bracelet">
+            </div>
+            <div class="buycard__price">
+                <p class="buycard__price_value">1560000р</p>
+            </div>
+        </div>
+        <div class="buycard">
+            <div class="buycard__text">
+                <h2>Серьги Frivole, миниатюрная модель</h2>
+                <p>Розовое золото 18 карат, Рубин</p>
+            </div>
+            <div class="buycard__img">
+                <img src="assets/images/flowerrings.png" alt="flowerrings">
+            </div>
+            <div class="buycard__price">
+                <p class="buycard__price_value">139500р</p>
+            </div>
+        </div>
+        <div class="basket__price">
+            <button class="coupon" onclick="getDiscount()">Использовать купон на 20%</button>
+            <div class="result">Итого:
+                <p id="result__total">0</p>
+            </div>
+        </div>
+    </div>
+
+    <script src="assets/js/index.js"></script>
+</body>
+</html>

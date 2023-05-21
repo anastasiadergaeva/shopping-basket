@@ -1,0 +1,45 @@
+.basket {
+    max-width: 1200px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin: 0 auto;
+}
+
+.pagename {
+    text-align: center;
+}
+
+img {
+    width: 280px;
+    height: 280px;
+}
+
+.buycard {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: 1px solid black;
+}
+
+.buycard__text {
+    font-size: 1.2rem;
+}
+
+.buycard__img {
+    order: -1;
+}
+
+.basket__price {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 20px;
+}
+
+.coupon {
+    height: 70px;
+    font-size: 1.2rem;
+}
+
+.result {
+    font-size: 1.5rem;
+}
